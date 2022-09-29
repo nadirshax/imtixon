@@ -1,0 +1,133 @@
+%card {
+   width: 350px;
+   height: 500px;
+ 
+   margin-right: 150px;
+   border-top: solid black 1px;
+   border-bottom: solid black 1px;
+}
+
+%card_h1 {
+   font-family: 'Ibarra Real Nova';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 42px;
+   letter-spacing: -0.357143px;
+   color: #33323D;
+}
+
+
+
+.main__box1 {
+   display: flex;
+   justify-content: space-between;
+
+   &__left {
+      width: 540px;
+      height: 500px;
+      left: 165px;
+      top: 190px;
+
+      background: #FFEFEC;
+   }
+
+   &__right {
+      @extend %card;
+      @extend %card_h1;
+
+      p{
+         width: 350px;
+         height: 150px;
+         font-family:sans-serif;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 30px;
+         color: #33323D;
+         mix-blend-mode: normal;
+         opacity: 0.8;
+      }
+
+      .btn-box {
+         width: 175px;
+         height: 48px;
+         border: 1px solid #33323D;
+
+         a {
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            padding: 10px;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            color: #33323D;
+
+         }
+      }
+   }
+}
+
+
+.main__box2 {
+   display: flex;
+   justify-content: space-between;
+
+   &__left {
+      width: 540px;
+      height: 500px;
+      left: 165px;
+      top: 190px;
+
+      background: #FFEFEC;
+   }
+
+   &__right {
+      @extend %card;
+      @extend %card_h1;
+
+      p{
+         width: 350px;
+         height: 150px;
+         font-family: sans-serif;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 30px;
+         color: #33323D;
+         mix-blend-mode: normal;
+         opacity: 0.8;
+      }
+
+      .btn-box {
+         width: 175px;
+         height: 48px;
+         border: 1px solid #33323D;
+
+         a {
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            padding: 10px;
+
+            font-family:sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            color: #33323D;
+
+         }
+      }
+   }
+}
